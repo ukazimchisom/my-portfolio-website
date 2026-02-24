@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-6 lg:px-8 flex items-center justify-between h-16">
         {/* Logo */}
         <a href="#hero" className="flex items-center gap-2">
-          <span className="font-display font-extrabold text-xl text-ink">
+          <span className="font-display font-bold text-xl text-ink">
             Ukazim Chisom
           </span>
         </a>
