@@ -2,9 +2,9 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className=" min-h-screen bg-[#090909] flex items-center overflow-hidden"
+      className="min-h-screen bg-[#090909] flex items-center overflow-hidden"
     >
-      <div className="max-w-7xl mx-auto px-6 lg:px-12 pt-24 pb-24">
+      <div className="max-w-7xl mx-auto px-6 lg:px-12 sm:pt-24 sm:pb-12 pb-6">
         <div className="max-w-4xl">
           <div className="flex items-center gap-3 mb-6 ">
             <div className="w-8 h-px bg-[#e8ff47]" />
@@ -30,17 +30,14 @@ const Hero = () => {
           </p>
 
           {/* CTAs */}
-          <div className="flex flex-wrap gap-4 mb-12">
+          <div className="flex flex-wrap gap-4 mb-6">
             <a
               href="#projects"
               className="px-6 sm:px-8 py-3 sm:py-4 bg-[#e8ff47] text-black font-mono font-bold text-sm uppercase tracking-widest hover:bg-white transition-all duration-300 hover:scale-105"
             >
               View Work
             </a>
-            <a
-              href="#contact"
-              className="px-6 sm:px-8 py-3 sm:py-4 border border-white/20 text-white font-mono text-sm uppercase tracking-widest hover:border-[#e8ff47] hover:text-[#e8ff47] transition-all duration-300"
-            >
+            <a href="#contact" className="btn-classic">
               Get In Touch
             </a>
           </div>

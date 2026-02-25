@@ -17,23 +17,31 @@ a {
   color: inherit;
 }
 
+.text-stroke {
+  -webkit-text-stroke: 1px white;
+  color: transparent;
+}
+
+.font-display {
+  font-family: "Syne", sans-serif;
+}
+.font-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+.font-body {
+  font-family: "Inter", sans-serif;
+}
+
 @layer components {
-  .text-stroke {
-    -webkit-text-stroke: 1px white;
-    color: transparent;
-  }
-
-  .font-display {
-    font-family: "Syne", sans-serif;
-  }
-  .font-mono {
-    font-family: "JetBrains Mono", monospace;
-  }
-  .font-body {
-    font-family: "Inter", sans-serif;
-  }
-
   .btn-primary {
-    @apply gap-2 bg-ink text-paper font-display font-semibold text-sm px-6 py-3 hover:bg-accent transition-colors duration-200;
+    @apply gap-2 bg-ink text-paper font-display font-semibold text-sm px-6 py-3 hover:bg-[#e8ff47] transition-colors duration-200;
+  }
+
+  .btn-secondary {
+    @apply gap-2 bg-[#e8ff47] text-black font-display font-semibold text-sm px-6 py-3 hover:bg-slate-50 transition-all duration-300 hover:scale-105;
+  }
+
+  .btn-classic {
+    @apply px-6 sm:px-8 py-3 sm:py-4 border border-white/20 text-white font-mono text-sm uppercase tracking-widest hover:border-[#e8ff47] hover:text-[#e8ff47] transition-all duration-300;
   }
 }
