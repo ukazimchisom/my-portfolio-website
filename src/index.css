@@ -44,4 +44,8 @@ a {
   .btn-classic {
     @apply px-6 sm:px-8 py-3 sm:py-4 border border-white/20 text-white font-mono text-sm uppercase tracking-widest hover:border-[#e8ff47] hover:text-[#e8ff47] transition-all duration-300;
   }
+
+  .input-class {
+    @apply w-full bg-[#0d0d0d] border border-[#1e1e1e] text-white text-sm px-4 py-3 focus:outline-none focus:border-[#e8ff47] transition-colors duration-300 placeholder:text-gray-700 font-mono;
+  }
 }
