@@ -76,7 +76,7 @@ const Navbar = () => {
                 </a>
               </li>
             ))}
-            <li className="pt-2">
+            <li className="btn-classic pt-2 ">
               <a
                 href="#contact"
                 className="btn-primary w-full justify-center inline-flex items-center"

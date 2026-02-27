@@ -31,10 +31,7 @@ const Hero = () => {
 
           {/* CTAs */}
           <div className="flex flex-wrap gap-4 mb-6">
-            <a
-              href="#projects"
-              className="px-6 sm:px-8 py-3 sm:py-4 bg-[#e8ff47] text-black font-mono font-bold text-sm uppercase tracking-widest hover:bg-white transition-all duration-300 hover:scale-105"
-            >
+            <a href="#projects" className="btn-secondary">
               View Work
             </a>
             <a href="#contact" className="btn-classic">
