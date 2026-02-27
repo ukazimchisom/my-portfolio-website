@@ -1,5 +1,3 @@
-import { motion } from "framer-motion";
-
 const experiences = [
   {
     role: "Frontend Developer — Personal Projects",
