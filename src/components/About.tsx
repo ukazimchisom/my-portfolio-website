@@ -5,10 +5,10 @@ const About = () => {
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left */}
           <div>
-            <p className="flex items-center gap-3 font-mono text-xs tracking-[0.2em] uppercase text-[#e8ff47] mb-4">
+            <span className="flex items-center gap-3 font-mono text-xs tracking-[0.2em] uppercase text-[#e8ff47] mb-4">
               <div className="w-8 h-px bg-[#e8ff47]" />
               About Me
-            </p>
+            </span>
             <h2 className="font-display font-extrabold text-4xl sm:text-5xl text-paper mb-8 leading-tight">
               Every detail,
               <br />
