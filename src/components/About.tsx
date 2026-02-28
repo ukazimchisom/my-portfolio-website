@@ -37,7 +37,7 @@ const About = () => {
 
             <div className="mt-10 flex flex-wrap gap-4">
               <a
-                href="/cv.pdf"
+                href="/chisom-ukazim-cv.pdf"
                 className="btn-secondary px-4 inline-flex"
                 target="_blank"
                 rel="noreferrer"
