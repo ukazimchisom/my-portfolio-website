@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="min-h-screen bg-[#090909] flex items-center overflow-hidden"
+      className="min-h-[650px] sm:min-h-screen bg-[#090909] flex items-center overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 sm:pt-24 sm:pb-12 pb-6">
         <div className="max-w-4xl">
@@ -14,7 +14,7 @@ const Hero = () => {
           </div>
 
           {/* Main heading */}
-          <h1 className="font-display text-4xl sm:text-7xl lg:text-8xl font-black leading-tight sm:leading-[0.95] lg:leading-[0.9] text-white mb-8">
+          <h1 className="font-display text-4xl sm:text-7xl lg:text-8xl font-black leading-normal sm:leading-[0.95] lg:leading-[0.9] text-white mb-8">
             <span className="block">Buiding</span>
             <span className="block text-stroke text-3xl lg:text-7xl">
               High-Impact
