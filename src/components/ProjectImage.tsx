@@ -1,4 +1,12 @@
-export default function ProjectImage({ image, color, id, title }) {
+export default function ProjectImage({
+  image,
+  color,
+  title,
+}: {
+  image: string | null;
+  color: string;
+  title: string;
+}) {
   return (
     <div
       className="relative overflow-hidden mb-6"
