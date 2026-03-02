@@ -51,10 +51,9 @@ const projects = [
   },
 ];
 
-
 export default function Projects() {
   return (
-    <section id="projects" className=" py-24 lg:py-32">
+    <section id="projects" className="reveal py-24 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
@@ -77,6 +76,7 @@ export default function Projects() {
             <div
               key={project.id}
               className="bg-[#0d0d0d] p-6 lg:p-8 group hover:bg-[#111] transition-all duration-300 relative overflow-hidden"
+              style={{ transitionDelay: `${project.id * 120}ms` }}
             >
               {/* Top accent */}
               <div

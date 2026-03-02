@@ -49,3 +49,35 @@ a {
     @apply w-full bg-[#0d0d0d] border border-[#1e1e1e] text-white text-sm px-4 py-3 focus:outline-none focus:border-[#e8ff47] transition-colors duration-300 placeholder:text-gray-700 font-mono;
   }
 }
+
+/* base hidden state */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  filter: blur(10px);
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease,
+    filter 0.7s ease;
+  will-change: opacity, transform, filter;
+}
+
+/* visible state */
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+  filter: blur(0);
+}
+
+/* directional variants */
+.reveal-left {
+  transform: translateX(-60px);
+}
+
+.reveal-right {
+  transform: translateX(60px);
+}
+
+.reveal-scale {
+  transform: scale(0.95);
+}

@@ -7,7 +7,10 @@ import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+import { useScrollReveal } from "./hooks/UseScrollReveal";
+
 export default function App() {
+  useScrollReveal();
   return (
     <div className="min-h-screen">
       <Navbar />

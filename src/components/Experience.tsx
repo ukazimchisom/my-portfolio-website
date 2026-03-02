@@ -13,7 +13,7 @@ const experiences = [
 ];
 export default function Experience() {
   return (
-    <div className="max-w-4xl mx-auto">
+    <section className="reveal max-w-4xl mx-auto">
       <h2 className="text-3xl sm:text-4xl font-display mb-12 text-[#e8ff47] text-center">
         <span className="text-white">Relevant</span> Experience
       </h2>
@@ -30,8 +30,8 @@ export default function Experience() {
               </span>
             </div>
             <ul className="space-y-2 text-gray-300 dark:text-lightTextDark">
-              {exp.highlights.map((item, idx) => (
-                <li key={idx} className="flex gap-1.5 sm:gap-2 ">
+              {exp.highlights.map((item, id) => (
+                <li key={id} className="reveal flex gap-1.5 sm:gap-2 ">
                   <span className="text-[#e8ff47]">▹</span>
                   <span>{item}</span>
                 </li>
@@ -40,6 +40,6 @@ export default function Experience() {
           </div>
         ))}
       </div>
-    </div>
+    </section>
   );
 }

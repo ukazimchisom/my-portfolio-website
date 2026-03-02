@@ -68,7 +68,7 @@ function SkillBar({ name, level }: SkillCategory["skills"][number]) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-[#090909] py-24 lg:py-32">
+    <section id="skills" className="reveal bg-[#090909] py-24 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="mb-16">
@@ -88,7 +88,7 @@ export default function Skills() {
           {skillCategories.map((group) => (
             <div
               key={group.category}
-              className="bg-[#0d0d0d] border border-[#1a1a1a] p-6"
+              className="reveal-scale bg-[#0d0d0d] border border-[#1a1a1a] p-6"
             >
               <h3 className="font-mono text-xs text-[#e8ff47] uppercase tracking-widest mb-6 pb-4 border-b border-[#1a1a1a]">
                 {group.category}
