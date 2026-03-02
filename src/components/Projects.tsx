@@ -11,7 +11,7 @@ const projects = [
     color: "#e8ff47",
     link: "https://job-tracker-app-chisom.vercel.app/",
     github: "https://github.com/ukazimchisom/Job-Tracker-App",
-    image: "/public/job-tracker-app.png",
+    image: "/public/assets/job-tracker-app.png",
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const projects = [
     color: "#818cf8",
     link: "https://chisom-todo-app-project.netlify.app/",
     github: "https://github.com/ukazimchisom/todo-app",
-    image: "/public/todo-app.png",
+    image: "/public/assets/todo-app.png",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const projects = [
     featured: false,
     link: "https://ip-tracker-omega-six.vercel.app/",
     github: "https://github.com/ukazimchisom/ip-tracker",
-    image: "/public/ip-tracker.jpg",
+    image: "/public/assets/ip-tracker.jpg",
   },
   {
     id: 4,
@@ -47,7 +47,7 @@ const projects = [
     featured: false,
     link: "https://product-list-with-cart-three-navy.vercel.app/",
     github: "https://github.com/ukazimchisom/product-list-with-cart",
-    image: "/public/product-list-with-cart.jpg",
+    image: "/public/assets/product-list-with-cart.jpg",
   },
 ];
 
