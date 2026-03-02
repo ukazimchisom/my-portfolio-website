@@ -88,7 +88,6 @@ export default function Projects() {
               <ProjectImage
                 image={project.image}
                 color={project.color}
-                id={project.id}
                 title={project.title}
               />
 
