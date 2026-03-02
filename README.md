@@ -8,6 +8,8 @@ The project emphasizes scalable component architecture, responsive design, and m
 
 # Live Demo
 
+👉 (https://chisom-ukazim-portfolio-website.vercel.app/)
+
 ## 📸 Preview
 
 ![screenshot](public/assets/Screenshot.png)
