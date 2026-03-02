@@ -1,73 +1,66 @@
-# React + TypeScript + Vite
+# Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📖 Overview
 
-Currently, two official plugins are available:
+This portfolio is designed to present my work in a visually engaging and performance-focused way. It features animated section reveals, a functional contact form powered by EmailJS, and a downloadable CV for easy access by recruiters and collaborators.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+The project emphasizes scalable component architecture, responsive design, and modern frontend best practices using React, TypeScript, and Tailwind CSS.
 
-## React Compiler
+# Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📸 Preview
 
-## Expanding the ESLint configuration
+![](/public/screenshot.png.png)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+# Features
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🎨 Modern responsive UI
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+⚡ Built with React + TypeScript
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+🎭 Smooth blur-fade scroll reveal animations
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+📱 Mobile-first design
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+📩 Functional contact form with EmailJS
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+📄 Downloadable CV
+
+🧩 Reusable component architecture
+
+🔥 Clean Git workflow
+
+# Tech Stack
+
+Frontend: React, TypeScript
+
+Styling: Tailwind CSS
+
+Animations: CSS + Intersection Observer
+
+Email Service: EmailJS
+
+Notifications: React Hot Toast
+
+Build Tool: Vite
+
+Version Control: Git & GitHub
+
+# My Process
+
+I approach frontend development with a strong focus on clarity, scalability, and user experience. My workflow is structured to ensure that every project I build is maintainable, responsive, and visually polished.
+
+I typically begin by understanding the goal of the interface and sketching the layout and component structure. This helps me think in reusable pieces early and avoid messy refactors later. Once the structure is clear, I build the UI using React and TypeScript with a mobile-first mindset, ensuring responsiveness from the start rather than as an afterthought.
+
+As I develop, I emphasize clean component architecture, consistent styling with Tailwind CSS, and smooth user interactions. I progressively enhance the experience by adding subtle animations such as blur-fade reveals and hover feedback to give the interface a modern, premium feel without hurting performance.
+
+Before finalizing any feature, I test across screen sizes, review accessibility basics, and keep commits organized with clear, conventional messages. This process allows me to ship interfaces that are not only visually appealing but also reliable, scalable, and production-ready.
+
+👤 Author
+
+Chisom Ukazim
+Frontend Developer
+
+GitHub: "https://github.com/ukazimchisom"
+LinkedIn: "https://www.linkedin.com/in/chisom-ukazim/"
+Twitter: "https://x.com/UkazimChisom"
