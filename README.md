@@ -10,7 +10,7 @@ The project emphasizes scalable component architecture, responsive design, and m
 
 ## 📸 Preview
 
-![](/public/screenshot.png.png)
+![screenshot](public/Screenshot.png)
 
 # Features
 
