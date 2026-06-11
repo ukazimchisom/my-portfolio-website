@@ -12,15 +12,20 @@ import { useScrollReveal } from "./hooks/UseScrollReveal";
 export default function App() {
   useScrollReveal();
   return (
-    <div className="min-h-screen">
+    <div
+      className="min-h-screen overflow-hidden
+    text-paper p"
+    >
       <Navbar />
-      <main className="bg-ink">
+      <main className="bg-ink py-10 lg:py-3">
         <Hero />
-        <About />
-        <Skills />
-        <Projects />
-        <Experience />
-        <Contact />
+        <div className="mx-auto lg:px-12">
+          <About />
+          <Skills />
+          <Projects />
+          <Experience />
+          <Contact />
+        </div>
         <Footer />
       </main>
     </div>

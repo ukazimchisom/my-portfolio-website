@@ -79,7 +79,7 @@ const Navbar = () => {
             <li className="btn-classic pt-2 ">
               <a
                 href="#contact"
-                className="btn-primary w-full justify-center inline-flex items-center"
+                className="btn-secondary w-full justify-center inline-flex items-center"
                 onClick={() => setOpen(false)}
               >
                 Hire Me

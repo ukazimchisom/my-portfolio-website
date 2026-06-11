@@ -1,9 +1,21 @@
 import { FaGithub } from "react-icons/fa";
-import ProjectImage from "./ProjectImage";
+import { lazy, Suspense } from "react";
+const ProjectImage = lazy(() => import("./ProjectImage"));
 
 const projects = [
   {
     id: 1,
+    title: "Tenhive",
+    description:
+      "Tenhive is a full-stack e-commerce web application featuring a customer-facing storefront and a full-featured admin panel. It supports product browsing, cart management, Paystack-powered checkout, order tracking, user authentication, and transactional emails — all built on Next.js 15 with Supabase as the backend.",
+    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
+    color: "#818cf8",
+    link: "https://tenhive.vercel.app/",
+    github: "https://github.com/ukazimchisom/tenhive",
+    image: "/assets/tenhive-1.png",
+  },
+  {
+    id: 2,
     title: "Job Tracker App",
     description:
       "The Job Tracker App is a web application that helps developers organize and monitor their job applications in one place. Users can add, edit, delete, and filter applications by status, while a dashboard provides a quick overview of job search progress.",
@@ -11,18 +23,20 @@ const projects = [
     color: "#e8ff47",
     link: "https://job-tracker-app-chisom.vercel.app/",
     github: "https://github.com/ukazimchisom/Job-Tracker-App",
-    image: "/public/assets/job-tracker-app.png",
+    image: "/assets/job-tracker-app.png",
   },
+
   {
-    id: 2,
-    title: "Todo App with Authentication & Drag-and-Drop",
+    id: 4,
+    title: "Portfolio Website",
     description:
-      "A modern, responsive Todo application built with React, TypeScript, and Supabase, featuring secure authentication, user-specific data storage, drag-and-drop reordering (desktop & mobile), dark mode, and toast notifications.",
-    tech: ["React", "TypeScript", "Supabase", "Tailwind CSS"],
-    color: "#818cf8",
-    link: "https://chisom-todo-app-project.netlify.app/",
-    github: "https://github.com/ukazimchisom/todo-app",
-    image: "/public/assets/todo-app.png",
+      "A personal portfolio website built with React and Tailwind CSS, showcasing my projects, skills, and experience. The site features a clean and modern design, responsive layout, a functional contact form powered by EmailJS, a downloadable CV for easy access by recruiters and collaborators, and smooth animations to provide an engaging user experience.",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    color: "#f97316",
+    featured: false,
+    link: "https://chisom-ukazim-portfolio-website.vercel.app/",
+    github: "https://github.com/ukazimchisom/my-portfolio",
+    image: "assets/portfolio.png",
   },
   {
     id: 3,
@@ -36,24 +50,11 @@ const projects = [
     github: "https://github.com/ukazimchisom/ip-tracker",
     image: "/public/assets/ip-tracker.jpg",
   },
-  {
-    id: 4,
-    title: "Product list with cart and checkout",
-    category: "Side Project",
-    description:
-      "A beginner-friendly React and Tailwind CSS app showcasing a product list and shopping cart. It demonstrates core e-commerce patterns including add-to-cart with quantity handling, item updates/removal, and automatic subtotal calculation using clean, component-based code.",
-    tech: ["React", "Tailwind CSS"],
-    color: "#f97316",
-    featured: false,
-    link: "https://product-list-with-cart-three-navy.vercel.app/",
-    github: "https://github.com/ukazimchisom/product-list-with-cart",
-    image: "/public/assets/product-list-with-cart.jpg",
-  },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="reveal py-24 lg:py-32">
+    <section id="projects" className="reveal reveal-right py-24 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">
@@ -85,11 +86,13 @@ export default function Projects() {
               />
 
               {/* ── IMAGE SPACE ── */}
-              <ProjectImage
-                image={project.image}
-                color={project.color}
-                title={project.title}
-              />
+              <Suspense fallback={null}>
+                <ProjectImage
+                  image={project.image}
+                  color={project.color}
+                  title={project.title}
+                />
+              </Suspense>
 
               <div className="flex items-start justify-between mb-6">
                 <div
@@ -128,7 +131,7 @@ export default function Projects() {
                 {project.title}
               </h3>
 
-              <p className="text-gray-500 text-sm leading-relaxed mb-6">
+              <p className="text-gray-400 text-sm leading-relaxed mb-6">
                 {project.description}
               </p>
 
@@ -136,7 +139,7 @@ export default function Projects() {
                 {project.tech.map((t) => (
                   <span
                     key={t}
-                    className="text-xs font-mono text-gray-600 bg-[#141414] px-2 py-1"
+                    className="text-xs font-mono text-gray-500 bg-[#141414] px-2 py-1"
                   >
                     {t}
                   </span>

@@ -19,7 +19,7 @@ const skillCategories: SkillCategory[] = [
       { name: "React.Js", level: 94 },
       { name: "Next.Js", level: 85 },
       { name: "TailwindCSS", level: 96 },
-      { name: "Redux", level: 80 },
+      { name: "Zustand", level: 80 },
     ],
   },
   {
@@ -38,14 +38,12 @@ const techStack = [
   "Next.js",
   "TypeScript",
   "TailwindCSS",
-  "Redux",
-  "React Query",
   "Zustand",
   "Vite",
   "Supabase",
-  "Node.js",
   "Figma",
   "Git",
+  "GitHub",
   "Vercel",
 ];
 
@@ -68,7 +66,10 @@ function SkillBar({ name, level }: SkillCategory["skills"][number]) {
 
 export default function Skills() {
   return (
-    <section id="skills" className="reveal bg-[#090909] py-24 lg:py-32">
+    <section
+      id="skills"
+      className="reveal bg-[#090909] py-20 lg:py-24 rounded-md"
+    >
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="mb-16">
@@ -100,7 +101,7 @@ export default function Skills() {
           ))}
         </div>
 
-        {/* Tech pills */}
+        {/* Tech stack */}
         <div>
           <p className="font-mono text-xs text-gray-400 uppercase tracking-widest mb-6">
             Technologies I work with
@@ -109,7 +110,7 @@ export default function Skills() {
             {techStack.map((tech) => (
               <span
                 key={tech}
-                className="px-4 py-2 bg-[#141414] border border-[#1e1e1e] text-gray-400 text-sm font-mono hover:border-[#e8ff47] hover:text-[#e8ff47] transition-all duration-300 cursor-default"
+                className="px-4 py-2 bg-[#141414] border border-[#1e1e1e] rounded-md text-[#e8ff47] text-sm font-mono hover:border-[#e8ff47] transition-all duration-200 cursor-default hover:-translate-y-1 hover:scale-105 active:translate-y-0  active:scale-95"
               >
                 {tech}
               </span>

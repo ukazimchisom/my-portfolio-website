@@ -1,13 +1,14 @@
 const experiences = [
   {
     role: "Frontend Developer — Personal Projects",
-    period: "2024 — Present",
+    period: "2023 — Present",
     highlights: [
-      "Developed responsive web applications using React and TypeScript",
-      "Integrated Supabase for authentication and real-time database features",
-      "Built reusable component-driven UIs with Tailwind CSS",
-      "Implemented efficient state management and API integration",
-      "Maintained clean Git workflows and project documentation",
+      "Built and deployed multiple frontend and full-stack applications, including an e-commerce website",
+      "Created responsive and accessible user interfaces using React, Next.js, TypeScript, and Tailwind CSS",
+      "Integrated Supabase for user authentication, database operations, and real-time data updates",
+      "Connected applications to external APIs and implemented efficient state management solutions",
+      "Optimized application performance through code splitting, lazy loading, and reusable component architecture",
+      "Managed source code with Git and GitHub while maintaining clear documentation and development workflows",
     ],
   },
 ];

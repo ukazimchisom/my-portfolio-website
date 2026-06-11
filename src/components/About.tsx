@@ -1,6 +1,9 @@
 const About = () => {
   return (
-    <section id="about" className="reveal py-24 bg-ink text-paper">
+    <section
+      id="about"
+      className="reveal reveal-left py-20 lg:py-24 bg-ink text-paper"
+    >
       <div className="max-w-6xl mx-auto px-6 lg:px-8">
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Left */}
@@ -35,9 +38,9 @@ const About = () => {
               </p>
             </div>
 
-            <div className="mt-10 flex flex-wrap gap-4">
+            <div className="mt-10 flex flex-wrap gap-3 lg:gap-4">
               <a
-                href="/chisom-ukazim-cv.pdf"
+                href="/assets/CHISOM_UKAZIM_frontendDeveloper_cv.pdf"
                 className="btn-secondary px-4 inline-flex"
                 target="_blank"
                 rel="noreferrer"
@@ -62,11 +65,11 @@ const About = () => {
           {/* Right: Quick Facts */}
           <div className="grid grid-cols-2 gap-4">
             {[
-              { label: "Location", value: "Nigeria, Africa" },
+              { label: "Location", value: "Abuja, Nigeria" },
               { label: "Focus", value: "Frontend Development" },
-              { label: "Languages", value: "JS, TS, HTML, CSS" },
-              { label: "Frameworks", value: "React, Next.js" },
-              { label: "Tools", value: "Vite, Webpack, Figma" },
+              { label: "Languages", value: "JS, TS, HTML, CSS, " },
+              { label: "Frameworks", value: "React, Next.js, Tailwind CSS" },
+              { label: "Tools", value: "Git, GitHub, VS Code, Vite, Vercel" },
               { label: "Currently", value: "Open to Work" },
             ].map((fact) => (
               <div

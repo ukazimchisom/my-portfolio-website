@@ -69,11 +69,21 @@ export default function Contact() {
                     value: "ukazimchisom@gmail.com",
                     href: "mailto:ukazimchisom@gmail.com",
                   },
-                  { label: "LinkedIn", value: "/in/alexjohnson", href: "#" },
+                  {
+                    label: "LinkedIn",
+                    value: "ukazimchisom",
+                    href: "https://linkedin.com/in/ukazimchisom",
+                  },
                   {
                     label: "GitHub",
                     value: "ukazimchisom",
                     href: "https://github.com/ukazimchisom",
+                  },
+
+                  {
+                    label: "WhatsApp",
+                    value: "+234 8134383888",
+                    href: "tel:+2348134383888",
                   },
                   {
                     label: "Location",
@@ -83,7 +93,7 @@ export default function Contact() {
                 ].map(({ label, value, href }) => (
                   <div key={label} className="flex items-start gap-4 group">
                     <div className="w-20 flex-shrink-0">
-                      <span className="font-mono text-xs text-gray-600 uppercase tracking-widest">
+                      <span className="font-mono text-xs text-gray-400 uppercase tracking-widest">
                         {label}
                       </span>
                     </div>
@@ -114,12 +124,12 @@ export default function Contact() {
             <div>
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
-                  <label className="font-mono text-xs text-gray-600 uppercase tracking-widest block mb-2">
+                  <label className="font-mono text-xs text-gray-400 uppercase tracking-widest block mb-2">
                     Your Name
                   </label>
                   <input
                     type="text"
-                    placeholder="Mike Doe"
+                    placeholder="Your Full Name"
                     className="input-class"
                     value={form.name}
                     onChange={(e) => setForm({ ...form, name: e.target.value })}
@@ -127,12 +137,12 @@ export default function Contact() {
                   />
                 </div>
                 <div>
-                  <label className="font-mono text-xs text-gray-600 uppercase tracking-widest block mb-2">
+                  <label className="font-mono text-xs text-gray-400 uppercase tracking-widest block mb-2">
                     Email Address
                   </label>
                   <input
                     type="email"
-                    placeholder="mike@company.com"
+                    placeholder="your.email@example.com"
                     className="input-class"
                     value={form.email}
                     onChange={(e) =>
@@ -142,7 +152,7 @@ export default function Contact() {
                   />
                 </div>
                 <div>
-                  <label className="font-mono text-xs text-gray-600 uppercase tracking-widest block mb-2">
+                  <label className="font-mono text-xs text-gray-400 uppercase tracking-widest block mb-2">
                     Message
                   </label>
                   <textarea
