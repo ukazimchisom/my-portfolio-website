@@ -14,7 +14,7 @@ const experiences = [
 ];
 export default function Experience() {
   return (
-    <section className="reveal max-w-4xl mx-auto">
+    <section className="lg:reveal max-w-4xl mx-auto">
       <h2 className="text-3xl sm:text-4xl font-display mb-12 text-[#e8ff47] text-center">
         <span className="text-white">Relevant</span> Experience
       </h2>

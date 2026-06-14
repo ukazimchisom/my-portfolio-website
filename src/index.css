@@ -38,11 +38,11 @@ a {
   }
 
   .btn-secondary {
-    @apply gap-2 bg-[#e8ff47] text-black font-semibold text-sm px-6 sm:px-8 py-3 sm:py-4 font-mono hover:bg-slate-50 transition-all duration-300 hover:scale-105 rounded-sm uppercase tracking-widest;
+    @apply gap-2 bg-[#e8ff47] text-black font-semibold text-sm px-3 sm:px-8 py-3 sm:py-4 font-mono hover:bg-slate-50 transition-all duration-300 hover:scale-105 rounded-md uppercase tracking-widest;
   }
 
   .btn-classic {
-    @apply px-6 sm:px-8 py-3 sm:py-4 border border-white/20 text-white font-mono text-sm uppercase tracking-widest hover:border-[#e8ff47] hover:text-[#e8ff47] transition-all duration-300 rounded-md;
+    @apply px-3 sm:px-8 py-3 sm:py-4 border border-white/20 text-white font-mono text-sm uppercase tracking-widest hover:border-[#e8ff47] hover:text-[#e8ff47] transition-all duration-300 rounded-md;
   }
 
   .input-class {

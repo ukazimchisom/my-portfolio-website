@@ -48,13 +48,13 @@ const projects = [
     featured: false,
     link: "https://ip-tracker-omega-six.vercel.app/",
     github: "https://github.com/ukazimchisom/ip-tracker",
-    image: "/public/assets/ip-tracker.jpg",
+    image: "/assets/ip-tracker.jpg",
   },
 ];
 
 export default function Projects() {
   return (
-    <section id="projects" className="reveal reveal-right py-24 lg:py-32">
+    <section id="projects" className="lg:reveal lg:reveal-right py-24 lg:py-32">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-8 mb-12">

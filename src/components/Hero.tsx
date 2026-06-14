@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="reveal min-h-[650px] sm:min-h-screen bg-[#090909] flex items-center overflow-hidden"
+      className="sm:reveal min-h-screen sm:min-h-screen bg-[#090909] flex items-center overflow-hidden"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12 sm:pt-24 sm:pb-12 pb-6">
         <div className="max-w-4xl">
@@ -25,9 +25,12 @@ const Hero = () => {
 
           {/* Subtext */}
           <p className="font-body text-gray-400 text-base sm:text-lg lg:text-xl max-w-xl mb-8 leading-relaxed font-light">
-            I develop seamless, performant web interfaces that people{" "}
-            <span className="text-white font-normal">actually enjoy using</span>
-            . React, TypeScript, and relentless focus on detail.
+            I develop seamless, performant web interfaces that people
+            <span className="text-white font-normal"> actually enjoy, </span>
+            using <span className="text-[#e8ff47]">Next.js</span>,{" "}
+            <span className="text-[#e8ff47]">React</span>,{" "}
+            <span className="text-[#e8ff47]">TypeScript</span>, and relentless
+            focus on detail.
           </p>
 
           {/* CTAs */}

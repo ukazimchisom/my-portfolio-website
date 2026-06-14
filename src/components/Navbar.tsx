@@ -63,7 +63,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {open && (
-        <div className="md:hidden bg-paper border-t border-border">
+        <div className="md:hidden bg-paper border-t border-border text-black">
           <ul className="flex flex-col px-6 py-4 gap-4">
             {navItems.map((item) => (
               <li key={item.href}>

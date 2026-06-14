@@ -17,9 +17,9 @@ export default function App() {
     text-paper p"
     >
       <Navbar />
-      <main className="bg-ink py-10 lg:py-3">
+      <main className="bg-ink py-10 sm:py-4 lg:py-3">
         <Hero />
-        <div className="mx-auto lg:px-12">
+        <div className="">
           <About />
           <Skills />
           <Projects />

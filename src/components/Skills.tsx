@@ -68,7 +68,7 @@ export default function Skills() {
   return (
     <section
       id="skills"
-      className="reveal bg-[#090909] py-20 lg:py-24 rounded-md"
+      className="lg:reveal bg-[#090909] py-20 lg:py-24 rounded-md"
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Header */}
@@ -89,7 +89,7 @@ export default function Skills() {
           {skillCategories.map((group) => (
             <div
               key={group.category}
-              className="reveal-scale bg-[#0d0d0d] border border-[#1a1a1a] p-6"
+              className="lg:reveal-scale bg-[#0d0d0d] border border-[#1a1a1a] p-6"
             >
               <h3 className="font-mono text-xs text-[#e8ff47] uppercase tracking-widest mb-6 pb-4 border-b border-[#1a1a1a]">
                 {group.category}
