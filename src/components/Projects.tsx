@@ -8,35 +8,21 @@ const projects = [
     title: "Tenhive",
     description:
       "Tenhive is a full-stack e-commerce web application featuring a customer-facing storefront and a full-featured admin panel. It supports product browsing, cart management, Paystack-powered checkout, order tracking, user authentication, and transactional emails — all built on Next.js 15 with Supabase as the backend.",
-    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "Tailwind CSS",
+      "Zustand",
+      "React Hook Form + Zod",
+      "Paystack (test mode)",
+      "EmailJS",
+      "DummyJSON API",
+    ],
     color: "#818cf8",
     link: "https://tenhive.vercel.app/",
     github: "https://github.com/ukazimchisom/tenhive",
     image: "/assets/tenhive-1.png",
-  },
-  {
-    id: 2,
-    title: "Job Tracker App",
-    description:
-      "The Job Tracker App is a web application that helps developers organize and monitor their job applications in one place. Users can add, edit, delete, and filter applications by status, while a dashboard provides a quick overview of job search progress.",
-    tech: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
-    color: "#e8ff47",
-    link: "https://job-tracker-app-chisom.vercel.app/",
-    github: "https://github.com/ukazimchisom/Job-Tracker-App",
-    image: "/assets/job-tracker-app.png",
-  },
-
-  {
-    id: 4,
-    title: "Portfolio Website",
-    description:
-      "A personal portfolio website built with React and Tailwind CSS, showcasing my projects, skills, and experience. The site features a clean and modern design, responsive layout, a functional contact form powered by EmailJS, a downloadable CV for easy access by recruiters and collaborators, and smooth animations to provide an engaging user experience.",
-    tech: ["React", "TypeScript", "Tailwind CSS"],
-    color: "#f97316",
-    featured: false,
-    link: "https://chisom-ukazim-portfolio-website.vercel.app/",
-    github: "https://github.com/ukazimchisom/my-portfolio",
-    image: "assets/portfolio.png",
   },
   {
     id: 3,
@@ -60,6 +46,30 @@ const projects = [
     github:
       "https://github.com/ukazimchisom/Healthcare-Appointment-Management-System",
     image: "/assets/DocSlot-screenshot.png",
+  },
+  {
+    id: 2,
+    title: "Job Tracker App",
+    description:
+      "The Job Tracker App is a web application that helps developers organize and monitor their job applications in one place. Users can add, edit, delete, and filter applications by status, while a dashboard provides a quick overview of job search progress.",
+    tech: ["React", "TypeScript", "Next.js", "Tailwind CSS", "React Hot Toast"],
+    color: "#e8ff47",
+    link: "https://job-tracker-app-chisom.vercel.app/",
+    github: "https://github.com/ukazimchisom/Job-Tracker-App",
+    image: "/assets/job-tracker-app.png",
+  },
+
+  {
+    id: 4,
+    title: "Portfolio Website",
+    description:
+      "A personal portfolio website built with React and Tailwind CSS, showcasing my projects, skills, and experience. The site features a clean and modern design, responsive layout, a functional contact form powered by EmailJS, a downloadable CV for easy access by recruiters and collaborators, and smooth animations to provide an engaging user experience.",
+    tech: ["React", "TypeScript", "Tailwind CSS"],
+    color: "#f97316",
+    featured: false,
+    link: "https://chisom-ukazim-portfolio-website.vercel.app/",
+    github: "https://github.com/ukazimchisom/my-portfolio",
+    image: "assets/portfolio.png",
   },
 ];
 
