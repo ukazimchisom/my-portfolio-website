@@ -40,15 +40,26 @@ const projects = [
   },
   {
     id: 3,
-    title: "IP Address Tracker",
+    title: "Healthcare-Appointment-Management-Sysytem",
     description:
-      "A React-based web application that allows users to look up geographical and network information associated with an IP address. Users can enter an IP address into a search field or leave it blank to automatically detect their current IP.",
-    tech: ["React", "Tailwind CSS", "Leaflet", "IP Geolocation API"],
+      "DocSlot is a full-stack Healthcare appointment booking platform that allows patients to browse qualified doctors, book appointments, manage their schedules, and receive email confirmations — all in one place. It features a patient-facing interface and a full-featured admin panel for managing doctors, appointments, and users.",
+    tech: [
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Supabase (PostgreSQL + Auth + Storage)",
+      "TanStack React Query",
+      "React Hook Form + Zod",
+      "EmailJS (client-side)",
+      "react-day-picker",
+      "Sonner",
+      "Vitest + Testing Library",
+    ],
     color: "#34d399",
-    featured: false,
-    link: "https://ip-tracker-omega-six.vercel.app/",
-    github: "https://github.com/ukazimchisom/ip-tracker",
-    image: "/assets/ip-tracker.jpg",
+    link: "https://docslot-healthcare.vercel.app/",
+    github:
+      "https://github.com/ukazimchisom/Healthcare-Appointment-Management-System",
+    image: "/assets/DocSlot-screenshot.png",
   },
 ];
 
