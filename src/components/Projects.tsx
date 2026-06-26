@@ -8,18 +8,51 @@ const projects = [
     title: "Tenhive",
     description:
       "Tenhive is a full-stack e-commerce web application featuring a customer-facing storefront and a full-featured admin panel. It supports product browsing, cart management, Paystack-powered checkout, order tracking, user authentication, and transactional emails — all built on Next.js 15 with Supabase as the backend.",
-    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind CSS"],
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Supabase",
+      "Tailwind CSS",
+      "Zustand",
+      "React Hook Form + Zod",
+      "Paystack (test mode)",
+      "EmailJS",
+      "DummyJSON API",
+    ],
     color: "#818cf8",
     link: "https://tenhive.vercel.app/",
     github: "https://github.com/ukazimchisom/tenhive",
     image: "/assets/tenhive-1.png",
   },
   {
+    id: 3,
+    title: "Healthcare-Appointment-Management-Sysytem",
+    description:
+      "DocSlot is a full-stack Healthcare appointment booking platform that allows patients to browse qualified doctors, book appointments, manage their schedules, and receive email confirmations — all in one place. It features a patient-facing interface and a full-featured admin panel for managing doctors, appointments, and users.",
+    tech: [
+      "Next.js",
+      "Typescript",
+      "Tailwind CSS",
+      "Supabase (PostgreSQL + Auth + Storage)",
+      "TanStack React Query",
+      "React Hook Form + Zod",
+      "EmailJS (client-side)",
+      "react-day-picker",
+      "Sonner",
+      "Vitest + Testing Library",
+    ],
+    color: "#34d399",
+    link: "https://docslot-healthcare.vercel.app/",
+    github:
+      "https://github.com/ukazimchisom/Healthcare-Appointment-Management-System",
+    image: "/assets/DocSlot-screenshot.png",
+  },
+  {
     id: 2,
     title: "Job Tracker App",
     description:
       "The Job Tracker App is a web application that helps developers organize and monitor their job applications in one place. Users can add, edit, delete, and filter applications by status, while a dashboard provides a quick overview of job search progress.",
-    tech: ["React", "TypeScript", "Next.js", "Tailwind CSS"],
+    tech: ["React", "TypeScript", "Next.js", "Tailwind CSS", "React Hot Toast"],
     color: "#e8ff47",
     link: "https://job-tracker-app-chisom.vercel.app/",
     github: "https://github.com/ukazimchisom/Job-Tracker-App",
@@ -37,18 +70,6 @@ const projects = [
     link: "https://chisom-ukazim-portfolio-website.vercel.app/",
     github: "https://github.com/ukazimchisom/my-portfolio",
     image: "assets/portfolio.png",
-  },
-  {
-    id: 3,
-    title: "IP Address Tracker",
-    description:
-      "A React-based web application that allows users to look up geographical and network information associated with an IP address. Users can enter an IP address into a search field or leave it blank to automatically detect their current IP.",
-    tech: ["React", "Tailwind CSS", "Leaflet", "IP Geolocation API"],
-    color: "#34d399",
-    featured: false,
-    link: "https://ip-tracker-omega-six.vercel.app/",
-    github: "https://github.com/ukazimchisom/ip-tracker",
-    image: "/assets/ip-tracker.jpg",
   },
 ];
 
