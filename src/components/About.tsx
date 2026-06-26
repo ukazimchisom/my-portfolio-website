@@ -40,7 +40,7 @@ const About = () => {
 
             <div className="mt-10 flex flex-wrap gap-3 lg:gap-4">
               <a
-                href="/assets/CHISOM_UKAZIM_frontendDeveloper_cv.pdf"
+                href="/assets/CHISOM_UKAZIM_frontendDeveloper_CV.pdf"
                 className="btn-secondary px-4 inline-flex"
                 target="_blank"
                 rel="noreferrer"
