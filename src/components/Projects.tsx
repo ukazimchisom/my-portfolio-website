@@ -25,6 +25,29 @@ const projects = [
     image: "/assets/tenhive-1.png",
   },
   {
+    id: 2,
+    title: "docolab",
+    description:
+      "Docolab is a collaborative, web-based document editor built for teams that need to draft, edit, and review documents together: product managers writing PRDs, technical writers maintaining documentation, business teams preparing resolutions. It features real-time collaboration, version control, and a rich text editor, all built with Next.js 15 and Supabase.",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "Google Gemini ApI",
+      "Supabase",
+      "Yjs over Supabase Realtime",
+      "Tailwind CSS",
+      "TipTap v3",
+      "React Hook Form + Zod",
+      "Drizzle ORM",
+      "DummyJSON API",
+      "Vitest + React Testing Library",
+    ],
+    color: "#818cf8",
+    link: "https://docolab-zeta.vercel.app/",
+    github: "https://github.com/ukazimchisom/docolab",
+    image: "/assets/docolab.png",
+  },
+  {
     id: 3,
     title: "Healthcare-Appointment-Management-Sysytem",
     description:
@@ -48,7 +71,7 @@ const projects = [
     image: "/assets/DocSlot-screenshot.png",
   },
   {
-    id: 2,
+    id: 4,
     title: "Job Tracker App",
     description:
       "The Job Tracker App is a web application that helps developers organize and monitor their job applications in one place. Users can add, edit, delete, and filter applications by status, while a dashboard provides a quick overview of job search progress.",
@@ -60,7 +83,7 @@ const projects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: "Portfolio Website",
     description:
       "A personal portfolio website built with React and Tailwind CSS, showcasing my projects, skills, and experience. The site features a clean and modern design, responsive layout, a functional contact form powered by EmailJS, a downloadable CV for easy access by recruiters and collaborators, and smooth animations to provide an engaging user experience.",
