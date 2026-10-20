@@ -7,28 +7,28 @@ const skillCategories: SkillCategory[] = [
   {
     category: "Frontend Core",
     skills: [
-      { name: "JavaScript", level: 95 },
-      { name: "TypeScript", level: 92 },
-      { name: "HTML5", level: 98 },
-      { name: "CSS3", level: 93 },
+      { name: "JavaScript", level: 100 },
+      { name: "TypeScript", level: 100 },
+      { name: "HTML5", level: 100 },
+      { name: "CSS3", level: 100 },
     ],
   },
   {
     category: "Frameworks & Libraries",
     skills: [
-      { name: "React.Js", level: 94 },
-      { name: "Next.Js", level: 85 },
-      { name: "TailwindCSS", level: 96 },
-      { name: "Zustand", level: 80 },
+      { name: "React.Js", level: 100 },
+      { name: "Next.Js", level: 100 },
+      { name: "TailwindCSS", level: 100 },
+      { name: "Zustand", level: 100 },
     ],
   },
   {
     category: "Tooling & Workflow",
     skills: [
-      { name: "Vite / Webpack", level: 88 },
-      { name: "Git & GitHub", level: 91 },
-      { name: "REST APIs", level: 87 },
-      { name: "Supabase", level: 82 },
+      { name: "Vite / Webpack", level: 100 },
+      { name: "Git & GitHub", level: 100 },
+      { name: "REST APIs", level: 100 },
+      { name: "Supabase", level: 100 },
     ],
   },
 ];
@@ -52,7 +52,7 @@ function SkillBar({ name, level }: SkillCategory["skills"][number]) {
     <div className="mb-5">
       <div className="flex justify-between mb-2">
         <span className="text-gray-300 text-sm">{name}</span>
-        <span className="font-mono text-xs text-[#e8ff47]">{level}%</span>
+        {/* <span className="font-mono text-xs text-[#e8ff47]">{level}%</span> */}
       </div>
       <div className="h-1 bg-[#1a1a1a] rounded-full overflow-hidden">
         <div
