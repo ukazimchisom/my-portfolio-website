@@ -56,17 +56,6 @@ export default function Experience() {
                 </li>
               ))}
             </ul>
-
-            {exp.link && (
-              <a
-                href={exp.link}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 mt-5 text-sm font-semibold text-[#e8ff47] hover:underline"
-              >
-                {exp.linkText} <span aria-hidden="true">↗</span>
-              </a>
-            )}
           </article>
         ))}
       </div>
