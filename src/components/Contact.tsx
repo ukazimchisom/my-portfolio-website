@@ -1,6 +1,7 @@
 import { useState } from "react";
 import emailjs from "@emailjs/browser";
 import toast, { Toaster } from "react-hot-toast";
+import { ArrowUpRight } from "lucide-react";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
@@ -66,17 +67,27 @@ export default function Contact() {
                 {[
                   {
                     label: "Email",
-                    value: "ukazimchisom@gmail.com",
-                    href: "mailto:ukazimchisom@gmail.com",
+                    value: "chisomukazim@gmail.com",
+                    href: "mailto:chisomukazim@gmail.com",
                   },
                   {
                     label: "LinkedIn",
-                    value: "ukazimchisom",
-                    href: "https://linkedin.com/in/ukazimchisom",
+                    value: (
+                      <ArrowUpRight
+                        size={18}
+                        className="transition-transform duration-200 group-hover:-translate-y-1 group-hover:translate-x-1"
+                      />
+                    ),
+                    href: "https://www.linkedin.com/in/chisom-ukazim/",
                   },
                   {
                     label: "GitHub",
-                    value: "ukazimchisom",
+                    value: (
+                      <ArrowUpRight
+                        size={18}
+                        className="transition-transform duration-200 group-hover:-translate-y-1 group-hover:translate-x-1"
+                      />
+                    ),
                     href: "https://github.com/ukazimchisom",
                   },
 
