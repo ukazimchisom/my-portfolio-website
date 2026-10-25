@@ -1,7 +1,7 @@
 const experiences = [
   {
     role: "Frontend Developer — Bizzmarrow Technologies",
-    period: "May 2025 — jan 2026",
+    period: "May 2025 — Jan 2026",
     type: "Contract · Hybrid",
     highlights: [
       "Architected and shipped a production-ready job platform application using Next.js, TypeScript, and Tailwind CSS.",
