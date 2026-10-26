@@ -49,7 +49,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Healthcare-Appointment-Management-Sysytem",
+    title: "DocSlot",
     description:
       "DocSlot is a full-stack Healthcare appointment booking platform that allows patients to browse qualified doctors, book appointments, manage their schedules, and receive email confirmations — all in one place. It features a patient-facing interface and a full-featured admin panel for managing doctors, appointments, and users.",
     tech: [
@@ -66,8 +66,7 @@ const projects = [
     ],
     color: "#34d399",
     link: "https://docslot-healthcare.vercel.app/",
-    github:
-      "https://github.com/ukazimchisom/Healthcare-Appointment-Management-System",
+    github: "https://github.com/ukazimchisom/docSlot",
     image: "/assets/DocSlot-screenshot.png",
   },
   {
