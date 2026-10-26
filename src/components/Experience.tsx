@@ -1,8 +1,8 @@
 const experiences = [
   {
     role: "Frontend Developer — Bizzmarrow Technologies",
-    period: "May 2025 — Jan 2026",
-    type: "Contract · Hybrid",
+    period: "Feb 2025 — May 2026",
+    type: "Full-time",
     highlights: [
       "Architected and shipped a production-ready job platform application using Next.js, TypeScript, and Tailwind CSS.",
       "Built 10+ reusable, accessible React components, improving consistency and reducing feature development time by 30%.",
@@ -11,8 +11,8 @@ const experiences = [
   },
   {
     role: "Frontend Developer — Malic Movies Company",
-    period: "Jun 2024 — Oct 2024",
-    type: "Remote",
+    period: "Jun 2024 — Nov 2025",
+    type: "Full-time",
     highlights: [
       "Led frontend development of a responsive, SEO-optimized corporate blog and content platform using React, Next.js, and TypeScript.",
       "Reduced page load times by 50% through image optimization, code splitting, and caching improvements.",
